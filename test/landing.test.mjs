@@ -17,7 +17,7 @@ test("the page script parses", () => {
 
 test("every tour and start button has a scene", () => {
   const scenes = new Set([...script.matchAll(/^  async (\w+)\(/gm)].map(m => m[1]));
-  for (const k of ["deck", "auto", "steer", "team", "flow", "star"]) assert.ok(scenes.has(k), k);
+  for (const k of ["deck", "steer", "team", "flow", "star", "handover"]) assert.ok(scenes.has(k), k);
   for (const [, k] of markup.matchAll(/data-(?:tour|start)="([^"]+)"/g)) assert.ok(scenes.has(k), `scene ${k}`);
 });
 
@@ -29,7 +29,7 @@ test("no engineering jargon on the page", () => {
 
 test("routes what visitors type to a scene", () => {
   assert.equal(lib.route("이 엑셀로 임원 보고용 발표자료 만들어줘"), "deck");
-  assert.equal(lib.route("다운로드 폴더 정리해줘"), "auto");
+  assert.equal(lib.route("다음 주 휴가야. 인수인계서 써줘"), "handover");
   assert.equal(lib.route("3분기 매출 리포트 만들어줘"), "steer");
   assert.equal(lib.route("경쟁사 세 곳 동향 조사해줘"), "team");
   assert.equal(lib.route("매주 월요일 9시에 보고서 만들어서 팀에 보내줘"), "flow");
