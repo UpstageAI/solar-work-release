@@ -13,7 +13,7 @@ Upstage Solar로 일하는 AI 에이전트.<br>
 [![Downloads](https://img.shields.io/github/downloads/UpstageAI/solar-work-release/total?color=5b4cf0)](https://github.com/UpstageAI/solar-work-release/releases)
 ![Platforms](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-eeedff)
 
-[**다운로드 페이지**](https://upstageai.github.io/solar-work-release/) · [기업용 소개](https://upstageai.github.io/solar-work-release/business.html) · [릴리스 목록](https://github.com/UpstageAI/solar-work-release/releases)
+[**다운로드 페이지**](https://upstageai.github.io/solar-work-release/) · [▶ 설치 없이 데모 체험](https://upstageai.github.io/solar-work-release/#demo) · [기업용 소개](https://upstageai.github.io/solar-work-release/business.html) · [릴리스 목록](https://github.com/UpstageAI/solar-work-release/releases)
 
 </div>
 
