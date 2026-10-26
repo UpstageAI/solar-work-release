@@ -11,6 +11,7 @@ docs/terms/
   privacy_required/2026-11-01.html    (필수) 개인정보 수집·이용
   privacy_marketing/2026-11-01.html   (선택) 마케팅 목적 개인정보 수집·이용
   ad_messages/2026-11-01.html         (선택) 광고성 정보 수신
+  open_source_licenses.html           오픈소스 라이선스 고지(동의 대상 아님, 경로 고정)
 ```
 
 URL: `https://upstageai.github.io/solar-work-release/terms/<kind>/<version>.html`
@@ -26,3 +27,17 @@ URL: `https://upstageai.github.io/solar-work-release/terms/<kind>/<version>.html
 ```sh
 shasum -a 256 docs/terms/terms_of_service/2026-11-01.html
 ```
+
+## 오픈소스 라이선스 고지
+
+`open_source_licenses.html`은 앱이 링크하는 **고정 경로**입니다(`https://upstageai.github.io/solar-work-release/terms/open_source_licenses.html`).
+동의 문서가 아니라서 버전 파일을 두지 않고, 릴리스마다 같은 파일을 다시 생성해 덮어씁니다. 위의 "고치지 않는다" 규칙은 이 파일에 적용하지 않습니다.
+
+배포되는 것만 담습니다: 서버·CLI 바이너리에 링크되는 Rust crate, 웹·데스크톱 화면 번들에 들어가는 npm 패키지, Electron, 바이너리에 함께 빌드되는 라이선스·NOTICE 파일.
+
+```sh
+# solar-work 체크아웃: 루트와 ui/desktop에서 npm ci 후
+node scripts/open-source-licenses.mjs ../solar-work
+```
+
+데스크톱 앱에 함께 싣는 `solar` CLI(UpstageAI/solar-code)는 이 목록에 들어가지 않습니다.
