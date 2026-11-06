@@ -8,6 +8,7 @@ docs/terms/
   age_14_or_over/2026-11-01.html      (필수) 만 14세 이상 확인
   age_14_or_over/versions.json        버전 목록(최신 먼저) — 페이지의 버전 선택 상자가 읽음
   terms_of_service/2026-11-01.html    (필수) 이용약관
+  privacy_required/2026-11-01.html    (필수) 개인정보 수집·이용
   privacy_policy/2026-11-01.html      개인정보 처리방침(동의 대상 아님, 공개 의무)
   privacy_marketing/2026-11-01.html   (선택) 마케팅 정보 수신 및 활용
   ai_model_training/2026-11-01.html   (선택) AI 모델 학습 이용
