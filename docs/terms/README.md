@@ -1,6 +1,6 @@
 # 약관 문서
 
-Solar Work 동의 화면이 여는 약관 본문입니다. 다운로드 페이지(`index.html`·`business.html`)에서는 링크하지 않습니다.
+Solar Works 동의 화면이 여는 약관 본문입니다. 다운로드 페이지(`index.html`·`business.html`)에서는 링크하지 않습니다.
 폴더 이름은 `terms_documents.kind`, 파일 이름은 `version`과 같습니다.
 
 ```
@@ -8,9 +8,9 @@ docs/terms/
   age_14_or_over/2026-11-01.html      (필수) 만 14세 이상 확인
   age_14_or_over/versions.json        버전 목록(최신 먼저) — 페이지의 버전 선택 상자가 읽음
   terms_of_service/2026-11-01.html    (필수) 이용약관
-  privacy_required/2026-11-01.html    (필수) 개인정보 수집·이용
-  privacy_marketing/2026-11-01.html   (선택) 마케팅 목적 개인정보 수집·이용
-  ad_messages/2026-11-01.html         (선택) 광고성 정보 수신
+  privacy_policy/2026-11-01.html      개인정보 처리방침(동의 대상 아님, 공개 의무)
+  privacy_marketing/2026-11-01.html   (선택) 마케팅 정보 수신 및 활용
+  ai_model_training/2026-11-01.html   (선택) AI 모델 학습 이용
   open_source_licenses.html           오픈소스 라이선스 고지(동의 대상 아님, 경로 고정)
 ```
 

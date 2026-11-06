@@ -5,7 +5,7 @@ import assert from "node:assert/strict";
 import { readFileSync, readdirSync } from "node:fs";
 
 const root = new URL("../docs/terms/", import.meta.url);
-const kinds = ["age_14_or_over", "terms_of_service", "privacy_required", "privacy_marketing", "ad_messages"];
+const kinds = ["age_14_or_over", "terms_of_service", "privacy_policy", "privacy_marketing", "ai_model_training"];
 const pages = readdirSync(root, { recursive: true }).filter(p => p.endsWith(".html"));
 
 test("every kind has a page", () => {
