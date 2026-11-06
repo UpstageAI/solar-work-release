@@ -231,7 +231,7 @@ const html = `<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>오픈소스 라이선스 | Solar Work</title>
+<title>오픈소스 라이선스 | Solar Works</title>
 <style>
 :root{color-scheme:light dark;--bg:#fff;--text:#1c1815;--muted:#5d6170;--line:#e4e6ec;--soft:#f6f7fa;--link:#3b5bdb}
 @media (prefers-color-scheme:dark){:root{--bg:#16161a;--text:#ececf1;--muted:#a3a6b4;--line:#2e2f36;--soft:#1f2026;--link:#91a7ff}}
@@ -261,8 +261,8 @@ footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);color:v
 <body>
 <main>
 <h1>오픈소스 라이선스</h1>
-<p class="meta">Solar Work ${esc(version)}${commit ? ` (${esc(commit)})` : ""} 기준</p>
-<p>Solar Work 데스크톱 앱, CLI, 웹 화면에는 아래 오픈소스 소프트웨어가 포함되어 있습니다. 각 소프트웨어의 저작권은 해당 저작권자에게 있으며, 각 라이선스 조건에 따라 사용합니다.</p>
+<p class="meta">Solar Works ${esc(version)}${commit ? ` (${esc(commit)})` : ""} 기준</p>
+<p>Solar Works 데스크톱 앱, CLI, 웹 화면에는 아래 오픈소스 소프트웨어가 포함되어 있습니다. 각 소프트웨어의 저작권은 해당 저작권자에게 있으며, 각 라이선스 조건에 따라 사용합니다.</p>
 ${section("앱 서버 · CLI", "데스크톱 앱에 포함된 서버와 CLI 프로그램에 함께 빌드된 Rust 라이브러리입니다.", rust)}
 ${section("화면", "웹 화면과 데스크톱 앱 화면에 함께 묶여 배포되는 JavaScript 라이브러리와 글꼴입니다.", npm)}
 ${section("런타임 · 내장 리소스", "데스크톱 앱 런타임과, 프로그램에 함께 들어간 플러그인·글꼴·코드의 라이선스 및 고지문입니다.", bundled)}
