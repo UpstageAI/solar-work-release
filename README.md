@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="docs/assets/icon.png" width="112" alt="Solar Work">
+<img src="docs/assets/icon.png" width="112" alt="Solar Works">
 
-# Solar Work
+# Solar Works
 
 **말로 맡기면, 일은 Solar가 합니다.**
 
@@ -48,7 +48,7 @@ Upstage **Document Parse**로 표 · 스캔본까지 구조 그대로 읽고, �
 
 ## 🏢 팀과 회사에서 쓰려면
 
-사내 서버에 설치하고, 승인 · 기록 · 권한 관리까지 갖춘 기업용 Solar Work가 있습니다.
+사내 서버에 설치하고, 승인 · 기록 · 권한 관리까지 갖춘 기업용 Solar Works가 있습니다.
 
 - 서버 · 데이터 · 기록을 사내에 두는 설치형 운영
 - 도구별 승인 정책과 전 과정 감사 기록
@@ -131,6 +131,6 @@ OS 보안 저장소가 없는 환경에서는 로그인 토큰을 디스크에 �
 ---
 
 <div align="center">
-<sub>이 저장소는 Solar Work 설치 파일 배포용입니다. 소스 코드는 포함되어 있지 않습니다.<br>
+<sub>이 저장소는 Solar Works 설치 파일 배포용입니다. 소스 코드는 포함되어 있지 않습니다.<br>
 Made by <a href="https://www.upstage.ai/">Upstage</a></sub>
 </div>
