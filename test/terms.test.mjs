@@ -6,7 +6,9 @@ import { readFileSync, readdirSync } from "node:fs";
 
 const root = new URL("../docs/terms/", import.meta.url);
 const kinds = ["age_14_or_over", "terms_of_service", "privacy_policy", "privacy_marketing", "ai_model_training"];
-const pages = readdirSync(root, { recursive: true }).filter(p => p.endsWith(".html"));
+// open_source_licenses.html is a fixed-path notice, not a versioned consent page.
+const pages = readdirSync(root, { recursive: true })
+  .filter(p => p.endsWith(".html") && p !== "open_source_licenses.html");
 
 test("every kind has a page", () => {
   for (const k of kinds) assert.ok(pages.some(p => p.startsWith(`${k}/`)), k);
